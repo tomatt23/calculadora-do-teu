@@ -4,7 +4,7 @@ document.querySelector('#display').value += data
 }
 
 function clean() {
-  document.querySelector('#display').value = 0
+  document.querySelector('#display').value = ''
 }
 
 function backspace() {
