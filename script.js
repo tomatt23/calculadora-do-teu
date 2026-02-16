@@ -1,9 +1,10 @@
+function insertToDisplay(data)
 {
 document.querySelector('#display').value += data
 }
 
 function clean() {
-  document.querySelector('#display').value = ""
+  document.querySelector('#display').value = 0
 }
 
 function backspace() {
